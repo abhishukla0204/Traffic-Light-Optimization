@@ -266,9 +266,5 @@ For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md)
 
 For questions or issues, please open an issue on GitHub.
 
----
-
-**Made with ❤️ by Abhinav Shukla**
-
 
 
