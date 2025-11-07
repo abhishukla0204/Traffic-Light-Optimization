@@ -1,6 +1,75 @@
-numpy
-pandas
+# Core Deep Learning Framework
+tensorflow==2.20.0
+keras==3.12.0
+
+# Numerical Computing & Data Processing
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+
+# Data Visualization
 matplotlib==3.9.2
-seaborn
-Xgboost
-tensorflow
+seaborn==0.13.2
+
+# Machine Learning (optional, for future extensions)
+xgboost==3.1.1
+
+# SUMO Traffic Simulator Interface
+traci==1.24.0
+sumolib==1.24.0
+
+# Neural Network Visualization
+pydot==4.0.1
+graphviz==0.21
+
+# TensorFlow Dependencies
+tensorboard==2.20.0
+tensorboard-data-server==0.7.2
+h5py==3.15.1
+protobuf==6.33.0
+absl-py==2.3.1
+astunparse==1.6.3
+gast==0.6.0
+google-pasta==0.2.0
+flatbuffers==25.9.23
+grpcio==1.76.0
+libclang==18.1.1
+opt_einsum==3.4.0
+optree==0.17.0
+ml_dtypes==0.5.3
+namex==0.1.0
+termcolor==3.2.0
+wrapt==2.0.0
+
+# Matplotlib Dependencies
+pillow==12.0.0
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.60.1
+kiwisolver==1.4.9
+pyparsing==3.2.5
+
+# Utilities
+requests==2.32.5
+urllib3==2.5.0
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+six==1.17.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+packaging==25.0
+typing_extensions==4.15.0
+
+# Documentation & Logging
+Markdown==3.10
+markdown-it-py==4.0.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+Pygments==2.19.2
+rich==14.2.0
+Werkzeug==3.1.3
+
+# Note: SUMO simulator must be installed separately from https://www.eclipse.org/sumo/
+# Set SUMO_HOME environment variable to SUMO installation directory

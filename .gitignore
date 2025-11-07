@@ -1,3 +1,10 @@
+# ============================================================================
+# Traffic Light Optimization - Git Ignore Configuration
+# ============================================================================
+# This file ensures only development/temporary files are ignored.
+# Important: Models, code, configs, and documentation ARE tracked in Git.
+# ============================================================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -121,7 +128,7 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Environments (Virtual environments should NOT be in version control)
 .env
 .venv
 env/
@@ -129,6 +136,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# IDE Settings (PyCharm/IntelliJ)
+# Uncomment the line below to also ignore .idea/ folder
+#.idea/
+
+# VS Code Settings (Keep for project configuration)
+# .vscode/ is intentionally NOT ignored to share editor settings
 
 # Spyder project settings
 .spyderproject
@@ -153,6 +167,21 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# ============================================================================
+# IMPORTANT: Files that ARE tracked (not ignored)
+# ============================================================================
+# The following are intentionally tracked in Git:
+# - TCLS/models/**/*.h5          (Trained neural network models)
+# - TCLS/models/**/test/*.png    (Test result visualizations)
+# - TCLS/models/**/test/*.txt    (Test result data)
+# - TCLS/**/*.py                 (All Python source code)
+# - TCLS/**/*.ini                (Configuration files)
+# - TCLS/intersection/*.xml      (SUMO network & route files)
+# - *.md                         (Documentation files)
+# - Requirements.txt             (Python dependencies)
+# - .vscode/                     (VS Code settings for consistency)
+# ============================================================================
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
