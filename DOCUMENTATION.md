@@ -728,10 +728,4 @@ For issues or questions:
 1. Check this documentation
 2. Review troubleshooting section
 3. Open an issue on GitHub
-4. Contact: sumitsingh3072@github
-
----
-
-**Document Version:** 1.0  
-**Last Updated:** November 7, 2025  
-**Author:** System Documentation Team
+4. Contact: shukla.abhinav0204@gmail.com
